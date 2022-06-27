@@ -1,0 +1,27 @@
+yum install git -y (to install git)
+gitconfig --global user.name "user_name"
+gitconfig --global user.email "user_email"
+gitconfig --edit user.email "user_email"
+gtconfig --edit user.email "user_email"
+git init (initiates or creates repository with a .git file)
+git remote add origin "github repo url" (to link a remote repository)
+git add . (to add files to staged area, . means all files)
+git commit -m "commit message" <file>
+git commit -am "commit message"  (Git commit and Git add in same command)
+git status (shows files to be committed)
+git log (shows commit history) 
+git pull <file>
+git rm --cached <file> (removes file from stagee area and repository)
+git restore --staged <file> (brings to previous stage)
+git "branch_name" (to create a branch)
+git checkout "branch_name" (to switch brnach to branch_name)
+git branch -d "branch_name" (deletes branch name only if branch is merged)
+git branch -D "branch_name" (deletes branch name when not merged)
+git branch (shows which branch are you in)
+git merge 
+git rebase [ne commit]
+git push -u origin "branch_name" (to push code to that "branch_name")
+git -rm <file> (to remove file from staged area)
+git reset (to reset yout index to your previous commit)
+git branch -merged (lists branches that are merged)
+git branch -nomerged (lists branches that are not merged)
