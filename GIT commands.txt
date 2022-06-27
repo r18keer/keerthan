@@ -19,7 +19,7 @@ git branch -d "branch_name" (deletes branch name only if branch is merged)
 git branch -D "branch_name" (deletes branch name when not merged)
 git branch (shows which branch are you in)
 git merge 
-git rebase [ne commit]
+git rebase [new commit]
 git push -u origin "branch_name" (to push code to that "branch_name")
 git -rm <file> (to remove file from staged area)
 git reset (to reset yout index to your previous commit)
